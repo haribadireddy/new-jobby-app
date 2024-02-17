@@ -1,0 +1,33 @@
+.header-container {
+  background-color: #272727;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-image-1 {
+  margin-left: 40px;
+  height: 40px;
+  width: 110px;
+}
+.header-unordered-list {
+  list-style-type: none;
+  display: flex;
+}
+.list {
+  padding-left: 20px;
+  color: #f8fafc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logout-button {
+  margin-right: 40px;
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
